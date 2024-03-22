@@ -17,8 +17,7 @@
                 <figure class="image"><img src="/src/assets/img/flags/Africa.png" width="" alt=""></figure>
           </div>
           
-          
-          <ul class="list d-flex flex-wrap">
+          <ul class="list d-flex flex-wrap mt-5">
            <CountryTransferComponent
               :info="{
                 imgName: 'DZ.png',
