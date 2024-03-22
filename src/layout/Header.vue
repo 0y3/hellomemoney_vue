@@ -41,11 +41,10 @@
                 <ul class="navigation clearfix">
                   <li class="current">
                     <RouterLink
-                      :to="{ name: 'about' }"
+                      :to="{ name: 'home' }"
                       class="shadow bg-darkk rounded"
                       aria-current="page"
-                      >Personal Account</RouterLink
-                    >
+                      >Personal Account</RouterLink>
                   </li>
                   <li class="">
                     <RouterLink :to="{ name: 'businessaccount' }" class=""

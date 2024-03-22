@@ -31,10 +31,19 @@ export default {}
               designed to simplify, accelerate, and secure your financial operations
             </p>
             <div class="action-btns mts-5">
-              <a href="" class="btn style1">Get multicurrency account</a>
+                <RouterLink
+                :to="{ name: 'businessaccount_multicurrencyaccount' }"
+                class="btn style1 mr-2"
+                >Get multicurrency account</RouterLink>
+                
+                <RouterLink
+                :to="{ name: 'businessaccount_internationaltransfer' }"
+                class="btn style1"
+                style="background: #fff !important; color: #2a65ca;"
+                >International payment</RouterLink>
+              <!-- <a href="" class="btn style1">Get multicurrency account</a>
               <a href="" class="btn style1" style="background: #fff !important; color: #2a65ca"
-                >International payment</a
-              >
+                >International payment</a> -->
             </div>
           </div>
         </div>

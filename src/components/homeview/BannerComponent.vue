@@ -26,8 +26,18 @@ export default {
                             <li>Free Credit Scoure Builder</li>
                         </ul>
                         <div class="action-btns mts-5">
-                            <a href="" class="btn style1 mr-2">Personal account</a>
-                            <a href="" class="btn style1" style="background: #fff !important; color: #2a65ca;">Business account</a>
+                            <RouterLink
+                                :to="{ name: 'home' }"
+                                class="btn style1 mr-2"
+                            >Personal account</RouterLink>
+                            
+                            <RouterLink
+                            :to="{ name: 'businessaccount' }"
+                            class="btn style1"
+                            style="background: #fff !important; color: #2a65ca;"
+                            >Business Account</RouterLink>
+                            <!-- <a href="" class="btn style1 mr-2">Personal account</a> -->
+                            <!-- <a href="" class="btn style1" style="background: #fff !important; color: #2a65ca;">Business account</a> -->
                         </div>
                     </div>
                 </div>
