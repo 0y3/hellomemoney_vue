@@ -1,5 +1,5 @@
 <template>
-  <section class="service-style-six py-3" style="background: url('/src/assets/img/WorldMap.png') no-repeat">
+  <section class="service-style-six py-3">
     <div class="auto-container">
       <div class="sec-title style-two centred">
         <p class="text-blue pb-2">We are a neo-digital banking</p>
@@ -179,6 +179,9 @@ onMounted(() => {
 </script>
 
 <style scoped>
+.service-style-six{
+  background: url('/src/assets/img/WorldMap.png') no-repeat;
+}
 .center_div {
   display: flex;
   align-items: center;

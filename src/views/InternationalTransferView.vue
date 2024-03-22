@@ -4,7 +4,7 @@
 
 <template>
 
-  <section class="MC" style="background: url('/src/assets/img/WorldMap3.png') no-repeat">
+  <section class="MC">
     <div class="auto-container">
       <div class="row justify-content-between py-5">
         <div class="col-md-12 text-center text-white pb-5">
@@ -25,6 +25,10 @@
 </template>
 
 <style scoped>
+.MC{
+  background: url('/src/assets/img/WorldMap3.png') no-repeat;
+  background-size: 100% 100%;
+}
 .list1 li {
   position: relative;
   display: block;

@@ -6,7 +6,7 @@ export default {
 
 
 <template>
-    <section class="hero-section ptb-100 min-vh-100 d-flex align-items-center bg-darkk position-relative overflow-hidden" style="background: url('/src/assets/img/bg_blue.png')no-repeat; background-size: 100% 100%;" >
+    <section class="hero-section ptb-100 min-vh-100 d-flex align-items-center bg-darkk position-relative overflow-hidden">
         <div class="auto-container">
             <div class="row justify-content-between align-items-center">
                 <div class="col-lg-7 col-md-12 col-sm-12 content-column text-white">
@@ -42,7 +42,7 @@ export default {
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-12 mt-5 mt-lg-0 ">
-                <div class="p-4" style="background: url('/src/assets/img/Currency\ converter.png');background-size: 100% 100%; border-radius: 20px;">
+                <div class="p-4 BA_calc">
                     <div class="service-block-six">
                       <div class="inner-boxies p-3" style="margin-bottom: unset;">
                           <div class="contact-style-two">
@@ -187,6 +187,15 @@ export default {
 </template>
 
 <style scoped>
+.hero-section {
+  background: url('/src/assets/img/bg_blue.png') no-repeat;
+  background-size: 100% 100%;
+}
+.BA_calc {
+    background: url('/src/assets/img/Currencyconverter.png');
+    background-size: 100% 100%;
+    border-radius: 20px;
+}
 .contact-style-two .default-form .form-group input[type='text'], .contact-style-two .default-form .form-group input[type='email'], .contact-style-two .default-form .form-group textarea {
     position: relative;
     display: block;

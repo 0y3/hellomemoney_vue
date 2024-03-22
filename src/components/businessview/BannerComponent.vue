@@ -17,8 +17,7 @@ export default {}
             <h1 class="fw-bold display-5 mb-0">
               <span>Empowering Your </span><br />Financial <span>Frontier</span>
             </h1>
-            <div
-              class="divider"></div>
+            <div class="divider"></div>
 
             <p class="mt-0">
               Unlock the full potential of your business with HelloMe Money Business Accounts, where
@@ -239,7 +238,7 @@ export default {}
   width: 60%;
   height: 40px;
   top: -15px;
-  background: url('/img/glow_line.png');
+  background: url('/src/assets/img/glow_line.png');
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }

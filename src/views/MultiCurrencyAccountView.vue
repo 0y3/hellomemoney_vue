@@ -3,7 +3,7 @@ import CurrencyComponent from '@/components/businessview/CurrencyComponent.vue'
 </script>
 
 <template>
-  <section class="MC" style="background: url('/src/assets/img/WorldMap2.png') no-repeat">
+  <section class="MC">
     <div class="auto-container">
       <div class="row justify-content-between py-5">
         <div class="col-md-12 text-center text-white pb-5">
@@ -112,6 +112,10 @@ import CurrencyComponent from '@/components/businessview/CurrencyComponent.vue'
 </template>
 
 <style scoped>
+.MC{
+  background: url('/src/assets/img/WorldMap2.png') no-repeat;
+  background-size: 100% 100%;
+}
 .list1 li {
   position: relative;
   display: block;
