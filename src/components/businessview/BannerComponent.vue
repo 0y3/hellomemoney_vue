@@ -4,9 +4,7 @@ export default {}
 
 <template>
   <section
-    class="hero-section min-vh-100 d-flex align-items-center bg-darkk position-relative overflow-hidden"
-    style="background: url('/src/assets/img/ba_bg.png') no-repeat; background-size: 100% 100%"
-  >
+    class="hero-section min-vh-100 d-flex align-items-center bg-darkk position-relative overflow-hidden">
     <div class="auto-container">
       <div class="row justify-content-between py-5">
         <div class="col-md-12 text-center pt-5 text-white">
@@ -20,9 +18,7 @@ export default {}
               <span>Empowering Your </span><br />Financial <span>Frontier</span>
             </h1>
             <div
-              class="divider"
-              style="background: url('/img/glow_line.png') no-repeat; background-size: 100% 100%"
-            ></div>
+              class="divider"></div>
 
             <p class="mt-0">
               Unlock the full potential of your business with HelloMe Money Business Accounts, where
@@ -49,13 +45,7 @@ export default {}
         </div>
         <div class="col-lg-5 col-md-12 mt-5 mt-lg-0">
           <div
-            class="p-4 BA_calc position-relative"
-            style="
-              background: url('/src/assets/img/Currency\ converter.png');
-              background-size: 100% 100%;
-              border-radius: 20px;
-            "
-          >
+            class="p-4 BA_calc position-relative">
             <div class="service-block-six">
               <div class="inner-boxies p-3" style="margin-bottom: unset">
                 <div class="contact-style-two">
@@ -193,6 +183,11 @@ export default {}
 </template>
 
 <style scoped>
+.hero-section {
+  background: url('/src/assets/img/ba_bg.png') no-repeat;
+  background-size: 100% 100%;
+}
+
 .contact-style-two .default-form .form-group input[type='text'],
 .contact-style-two .default-form .form-group input[type='email'],
 .contact-style-two .default-form .form-group textarea {
@@ -244,6 +239,8 @@ export default {}
   width: 60%;
   height: 40px;
   top: -15px;
+  background: url('/img/glow_line.png');
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 .BA_header p {
@@ -265,9 +262,11 @@ export default {}
   padding: 15px 20px;
   border-radius: 30px;
 }
-/* .BA_calc {
-  position: relative;
-} */
+.BA_calc {
+    background: url('/src/assets/img/Currencyconverter.png');
+    background-size: 100% 100%;
+    border-radius: 20px;
+}
 
 .BA_calc:before {
   content: url('/src/assets/img/down_line2.png');
