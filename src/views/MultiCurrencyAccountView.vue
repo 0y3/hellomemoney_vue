@@ -114,7 +114,7 @@ import CurrencyComponent from '@/components/businessview/CurrencyComponent.vue'
 <style scoped>
 .MC{
   background: url('/src/assets/img/WorldMap2.png') no-repeat;
-  background-size: 100% 100%;
+  /* background-size: 100% 100%; */
 }
 .list1 li {
   position: relative;
