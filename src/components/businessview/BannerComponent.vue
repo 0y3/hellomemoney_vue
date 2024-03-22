@@ -14,7 +14,7 @@ export default {}
         </div>
         <div class="col-lg-7 col-md-12 col-sm-12 content-column text-white">
           <div class="BA_header">
-            <h1 class="fw-bold display-5 mb-0">
+            <h1 class="fw-bold display-5 text-responsive mb-0">
               <span>Empowering Your </span><br />Financial <span>Frontier</span>
             </h1>
             <div class="divider"></div>
@@ -28,12 +28,12 @@ export default {}
             <div class="action-btns mts-5">
                 <RouterLink
                 :to="{ name: 'businessaccount_multicurrencyaccount' }"
-                class="btn style1 mr-2"
+                class="btn style1 text-responsive mr-2"
                 >Get multicurrency account</RouterLink>
                 
                 <RouterLink
                 :to="{ name: 'businessaccount_internationaltransfer' }"
-                class="btn style1"
+                class="btn style1 text-responsive"
                 style="background: #fff !important; color: #2a65ca;"
                 >International payment</RouterLink>
               <!-- <a href="" class="btn style1">Get multicurrency account</a>
@@ -157,12 +157,12 @@ export default {}
                         </div>
                       </div>
                       <div class="col-lg-6 col-md-6 col-sm-12 form-group message-btn mb-2">
-                        <a href="" class="btn style1 style2" style="width: 100%">Compare price</a>
+                        <a href="" class="btn style1 style2 text-responsive" style="width: 100%">Compare price</a>
                       </div>
                       <div class="col-lg-6 col-md-6 col-sm-12 form-group message-btn mb-2">
                         <a
                           href=""
-                          class="btn style1 style2"
+                          class="btn style1 style2 text-responsive"
                           style="width: 100%; background: #fff !important; color: #2a65ca"
                           >Get Started</a
                         >
@@ -192,7 +192,6 @@ export default {}
 .contact-style-two .default-form .form-group textarea {
   position: relative;
   display: block;
-  width: unset !important;
   height: 60px;
   border: 1px solid #dedede;
   border-radius: 20px;
@@ -251,7 +250,7 @@ export default {}
   font-weight: 400;
   line-height: 40px; /* 166.667% */
   letter-spacing: 0.96px;
-  padding-right: 7rem;
+  padding-right: 7vw;
 }
 .btn {
   text-transform: unset;

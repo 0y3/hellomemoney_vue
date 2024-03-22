@@ -12,7 +12,7 @@ export default {
                 <div class="col-lg-7 col-md-12 col-sm-12 content-column text-white">
                     <div class="hero-content-wrap jobHD">
                         <!-- <h5 class="text-warning ban-font-weight">#1 SOFTWARE COMPANY IN WORLD</h5> -->
-                        <h1 class="fw-bold display-5"><span>GET</span> MULTICURRENCY <span>ACCOUNT</span> </h1>
+                        <h1 class="fw-bold display-5 text-responsive"><span>GET</span> MULTICURRENCY <span>ACCOUNT</span> </h1>
 
                         <ul class="list clearfix list-flex">
                             <li>Get Euro/GBP IBAN Account in your name</li>
@@ -28,12 +28,12 @@ export default {
                         <div class="action-btns mts-5">
                             <RouterLink
                                 :to="{ name: 'home' }"
-                                class="btn style1 mr-2"
+                                class="btn style1 text-responsive mr-2"
                             >Personal account</RouterLink>
                             
                             <RouterLink
                             :to="{ name: 'businessaccount' }"
-                            class="btn style1"
+                            class="btn style1 text-responsive"
                             style="background: #fff !important; color: #2a65ca;"
                             >Business Account</RouterLink>
                             <!-- <a href="" class="btn style1 mr-2">Personal account</a> -->
@@ -106,7 +106,7 @@ export default {
                                           </div>
                                       </div>
                                       <div class="col-lg-12 col-md-12 col-sm-12 form-group message-btn">
-                                          <a href="" class="btn style1" style="width: 100%;">Send</a>
+                                          <a href="" class="btn style1 text-responsive" style="width: 100%;">Send</a>
                                       </div>
                                   </div>
                                   <br>
@@ -199,7 +199,6 @@ export default {
 .contact-style-two .default-form .form-group input[type='text'], .contact-style-two .default-form .form-group input[type='email'], .contact-style-two .default-form .form-group textarea {
     position: relative;
     display: block;
-    width: unset !important;
     height: 60px;
     border: 1px solid #dedede;
     border-radius: 20px;

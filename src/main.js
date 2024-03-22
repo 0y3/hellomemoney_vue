@@ -14,6 +14,7 @@ import { fas } from "@fortawesome/free-solid-svg-icons";
 
 import './assets/css/globalstyle.css';
 import './assets/css/responsive.css';
+import './assets/css/globalresponsive.css';
 import './assets/css/theme-template.css';
 
 
