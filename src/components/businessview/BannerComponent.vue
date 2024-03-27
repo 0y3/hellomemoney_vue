@@ -15,7 +15,7 @@ export default {}
         <div class="col-lg-7 col-md-12 col-sm-12 content-column text-white">
           <div class="BA_header">
             <h1 class="fw-bold display-5 text-responsive mb-0">
-              <span>Empowering Your </span><br />Financial <span>Frontier</span>
+              <span class="text-responsive">Empowering Your </span><br />Financial <span>Frontier</span>
             </h1>
             <div class="divider"></div>
 

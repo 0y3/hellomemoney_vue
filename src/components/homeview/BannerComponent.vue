@@ -28,12 +28,12 @@ export default {
                         <div class="action-btns mts-5">
                             <RouterLink
                                 :to="{ name: 'home' }"
-                                class="btn style1 text-responsive mr-2"
+                                class="text-responsive btn style1 mr-2"
                             >Personal account</RouterLink>
                             
                             <RouterLink
                             :to="{ name: 'businessaccount' }"
-                            class="btn style1 text-responsive"
+                            class="text-responsive btn style1"
                             style="background: #fff !important; color: #2a65ca;"
                             >Business Account</RouterLink>
                             <!-- <a href="" class="btn style1 mr-2">Personal account</a> -->
@@ -106,7 +106,7 @@ export default {
                                           </div>
                                       </div>
                                       <div class="col-lg-12 col-md-12 col-sm-12 form-group message-btn">
-                                          <a href="" class="btn style1 text-responsive" style="width: 100%;">Send</a>
+                                          <a href="" class="text-responsive btn style1 style2" style="width: 100%;">Send</a>
                                       </div>
                                   </div>
                                   <br>
@@ -208,5 +208,10 @@ export default {
     background-color: #ffffff;
     transition: all 500ms ease;
     padding: 15px 60px 15px 30px;
+}
+.style2 {
+  font-size: 20px;
+  padding: 15px 20px;
+  border-radius: 30px;
 }
 </style>

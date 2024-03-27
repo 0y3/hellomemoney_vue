@@ -462,10 +462,10 @@ img {
 }
 
 .btn.style1 {
-    background: -webkit-linear-gradient(0deg, #2a65ca, #2a65ca 100%) !important;
+    background: -webkit-linear-gradient(0deg, #195399, #195399 100%) !important;
     color: #fff;
     margin-bottom: 10px;
-    border: 1px solid #2a65ca !important;
+    border: 1px solid #195399 !important;
 }
 
 .btn.style1:after {
