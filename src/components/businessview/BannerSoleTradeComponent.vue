@@ -4,24 +4,24 @@ export default {}
 
 <template>
   <section
-    class="sms-section d-flex align-items-center bg-darkk position-relative overflow-hidden" style="background: #121212;">
+    class="sms-section d-flex align-items-center position-relative overflow-hidden">
     <div class="container-fluid">
       <div class="row justify-content-between">
         <div class="col-md-12 text-center text-dark my-5">
           <ul class="list1 clearfix list-flex">
-            <li>SME (Small and Medium Enterprises)</li>
+            <li>Sole Trader / Freelancer</li>
           </ul>
         </div>
-        <div class="col-lg-6 col-md-6 offset-lg-1 offset-md-1 col-sm-12 content-column text-white align-self-center">
+        <div class="col-md-6 offset-md-3 col-sm-12 content-column text-white align-self-center text-center">
           <div class="SME_header">
-            <h2>Tailored financial solutions for Small and Medium Enterprises (SMEs) with HelloMe Money</h2>
-            <p class="mt-5">Access specialized accounts, tools, and services designed to meet the unique needs of your business.</p>
+            <h2>HelloMe Money caters to the financial requirements of sole traders and freelancers</h2>
+            <p class="mt-5">Enjoy a dedicated account and features tailored to support the dynamic needs of your independent business.</p>
             
             <div class="action-btns mts-5">
               <RouterLink
                   :to="{ name: 'home' }"
                   class="btn stylebtn mr-2"
-              >Get multicurrency account</RouterLink>
+              >Get Started</RouterLink>
               
               <RouterLink
               :to="{ name: 'home' }"
@@ -31,17 +31,16 @@ export default {}
             </div>
           </div>
         </div>
-        <div class="col-lg-5 col-md-5 col-sm-12 image-column text-right">
-            <div class="image-box">
-                <img src="/src/assets/img/Herosectionimages.png" width="550px" alt="">
-            </div>
-        </div>
       </div>
     </div>
   </section>
 </template>
 
 <style scoped>
+.sms-section{
+  background: url('/src/assets/img/bg_sole.png') no-repeat;
+  /* background-size: 100% 100%; */
+}
 .list1 li {
   position: relative;
   display: block;
@@ -64,7 +63,7 @@ export default {}
   font-family: ClashGrotesk-Variable;
   font-size: 32px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 40px;
   /* letter-spacing: 1.28px; */
 }
@@ -73,7 +72,7 @@ export default {}
   font-family: ClashGrotesk-Variable;
   font-size: 28px;
   font-weight: 300;
-  letter-spacing: 1.28px;
+  letter-spacing: 0.08px;
 }
 
 .btn.stylebtn {

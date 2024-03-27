@@ -123,7 +123,7 @@ export default {
 
     <!-- about-section -->
     <section class="about-sectionn" style="position: relative;">
-            <div class="image-box d-none d-md-block" style="position: absolute; top: -170px; left: 50px;"><img src="/src/assets/img/Group 47286.png" width="250px" alt=""></div>
+            <div class="image-box d-none d-md-block" style="position: absolute; top: -170px; left: 50px;"><img src="/src/assets/img/Group47286.png" width="250px" alt=""></div>
             <div class="auto-container">
                 <div class="sec-title centred">
                     <h3 class="mb-3">The complete financial stack for your business</h3>

@@ -68,6 +68,15 @@ const router = createRouter({
             templateColor: 'dark',
             footerSize: 1
           }
+        },
+        {
+          path: '/business-account/sole-trader',
+          name: 'businessaccount_soletrader',
+          component: () => import('../views/SoleTradeView.vue'), //loadView("BusinessAccountView"),
+          meta: {
+            templateColor: 'dark',
+            footerSize: 1
+          }
         }
       ]
     }
