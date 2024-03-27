@@ -124,7 +124,7 @@
 
             <div class="row gx-5y" style="padding-top: 100px;">
                 <div class="col-lg-12">
-                    <figure class="image"><img src="/src/assets/img/Frame 14438.png" alt=""></figure>
+                    <figure class="image"><img src="/src/assets/img/Frame14438.png" alt=""></figure>
                 </div>
             </div>
 

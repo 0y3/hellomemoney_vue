@@ -35,7 +35,7 @@
                 <div class="row align-items-center clearfix my-5">
                     <div class="col-lg-6 col-md-12 col-sm-12 image-column pb-5">
                         <div class="image-box">
-                            <img src="/src/assets/img/Group 47288.png" width="550px" alt="">
+                            <img src="/src/assets/img/Group47288.png" width="550px" alt="">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 content-column text-justify pb-5">
@@ -78,7 +78,7 @@
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 image-column pb-5">
                         <div class="image-box">
-                            <figure class="image js-tilt clearfix" style="will-change: transform; transform: perspective(700px) rotateX(0deg) rotateY(0deg);"><img src="/src/assets/img/Group 47287.png" alt=""><div class="js-tilt-glare" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden;"><div class="js-tilt-glare-inner" style="position: absolute; top: 50%; left: 50%; pointer-events: none; background-image: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%); width: 1100px; height: 1100px; transform: rotate(180deg) translate(-50%, -50%); transform-origin: 0% 0%; opacity: 0;"></div></div></figure>
+                            <figure class="image js-tilt clearfix" style="will-change: transform; transform: perspective(700px) rotateX(0deg) rotateY(0deg);"><img src="/src/assets/img/Group47287.png" alt=""><div class="js-tilt-glare" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden;"><div class="js-tilt-glare-inner" style="position: absolute; top: 50%; left: 50%; pointer-events: none; background-image: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%); width: 1100px; height: 1100px; transform: rotate(180deg) translate(-50%, -50%); transform-origin: 0% 0%; opacity: 0;"></div></div></figure>
                         </div>
                     </div>
                 </div>

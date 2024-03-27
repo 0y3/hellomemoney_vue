@@ -59,6 +59,15 @@ const router = createRouter({
             templateColor: 'dark',
             footerSize: 1
           }
+        },
+        {
+          path: '/business-account/sme',
+          name: 'businessaccount_sme',
+          component: () => import('../views/SMEView.vue'), //loadView("BusinessAccountView"),
+          meta: {
+            templateColor: 'dark',
+            footerSize: 1
+          }
         }
       ]
     }

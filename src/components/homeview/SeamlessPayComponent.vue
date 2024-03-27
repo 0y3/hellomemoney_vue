@@ -7,7 +7,7 @@
             <div class="row gx-5">
                 <div class="col-lg-7">
                     <div class="image-box">
-                        <figure class="image"><img src="/src/assets/img/Group 47289.png" alt=""></figure>
+                        <figure class="image"><img src="/src/assets/img/Group47289.png" alt=""></figure>
                     </div>
                 </div>
                 <div class="col-lg-5">
@@ -30,7 +30,7 @@
             <div class="row gx-5y mt-5">
                 <div class="col-lg-12">
                     <div class="image-box">
-                        <figure class="image"><img src="/src/assets/img/Property 1=CTA REINFORCEMENT.png" alt=""></figure>
+                        <figure class="image"><img src="/src/assets/img/Property.png" alt=""></figure>
                     </div>
                 </div>
             </div>
