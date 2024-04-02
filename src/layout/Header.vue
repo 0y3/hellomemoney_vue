@@ -46,10 +46,22 @@
                       aria-current="page"
                       >Personal Account</RouterLink>
                   </li>
-                  <li class="">
-                    <RouterLink :to="{ name: 'businessaccount' }" class=""
-                      >Business Account</RouterLink
-                    >
+                  <li class="current dropdown">
+                    <RouterLink 
+                    :to="{ name: 'businessaccount' }" class=""
+                    >Business Account</RouterLink>
+                    <ul :class="isDarkTheme">
+                        <li>
+                          <RouterLink 
+                            :to="{ name: 'businessaccount_sme' }" class=""
+                            >SME</RouterLink>
+                        </li>
+                        <li>
+                          <RouterLink 
+                            :to="{ name: 'businessaccount_soletrader' }" class=""
+                            >Sole Trader</RouterLink>
+                        </li>
+                    </ul>
                   </li>
                   <li class="">
                     <RouterLink :to="{ name: 'about' }" class="">Company</RouterLink>
