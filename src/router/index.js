@@ -77,6 +77,33 @@ const router = createRouter({
             templateColor: 'dark',
             footerSize: 1
           }
+        },
+        {
+          path: '/business-account/cypto-exchange',
+          name: 'businessaccount_cyptoexchange',
+          component: () => import('../views/CyptoExchangeView.vue'), //loadView("BusinessAccountView"),
+          meta: {
+            templateColor: 'dark',
+            footerSize: 1
+          }
+        },
+        {
+          path: '/business-account/remittance',
+          name: 'businessaccount_remittance',
+          component: () => import('../views/RemittanceView.vue'), //loadView("BusinessAccountView"),
+          meta: {
+            templateColor: 'dark',
+            footerSize: 1
+          }
+        },
+        {
+          path: '/business-account/marketplace',
+          name: 'businessaccount_marketplace',
+          component: () => import('../views/MarketplaceView.vue'), //loadView("BusinessAccountView"),
+          meta: {
+            templateColor: 'dark',
+            footerSize: 1
+          }
         }
       ]
     }

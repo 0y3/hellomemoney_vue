@@ -48,7 +48,7 @@
                   </li>
                   <li class="current dropdown">
                     <RouterLink 
-                    :to="{ name: 'businessaccount' }" class=""
+                    :to="{ name: 'businessaccount' }" class="dropdown-togglee"
                     >Business Account</RouterLink>
                     <ul :class="isDarkTheme">
                         <li>
@@ -66,6 +66,57 @@
                   <li class="">
                     <RouterLink :to="{ name: 'about' }" class="">Company</RouterLink>
                   </li>
+      <!-- <li class="nav-item dropdownn megamenu">
+        <a id="megamenu" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle font-weight-bold text-uppercase">Dropdown Menu</a>
+        <div aria-labelledby="megamenu" class="dropdown-menu border-0 p-0 m-0">
+          <div class="container-fluid">
+            <div class="row bg-dark text-light rounded-0 m-0 shadow-sm">
+              <div class="col-12">
+                <div class="p-4">
+                  <div class="row">
+                    <div class="col-sm-6 col-lg-3 mb-4">
+                      <h6 class="font-weight-bold text-uppercase">Heading 1</h6>
+                      <ul class="list-unstyled">
+                        <li class="nav-item"><a href="#" class="nav-link text-small pb-0">Unique Features</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-small pb-0 ">Image Responsive</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-small pb-0 ">Auto Carousel</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-small pb-0 ">Newsletter Form</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 mb-4">
+                      <h6 class="font-weight-bold text-uppercase">Heading 2</h6>
+                      <ul class="list-unstyled">
+                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Unique Features</a></li>
+                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Image Responsive</a></li>
+                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Auto Carousel</a></li>
+                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Newsletter Form</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 mb-4">
+                      <h6 class="font-weight-bold text-uppercase">Heading 3</h6>
+                      <ul class="list-unstyled">
+                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Unique Features</a></li>
+                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Image Responsive</a></li>
+                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Auto Carousel</a></li>
+                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Newsletter Form</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 mb-4">
+                      <h6 class="font-weight-bold text-uppercase">Heading 4</h6>
+                      <ul class="list-unstyled">
+                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Unique Features</a></li>
+                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Image Responsive</a></li>
+                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Auto Carousel</a></li>
+                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Newsletter Form</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li> -->
                 </ul>
               </div>
             </nav>
@@ -90,5 +141,15 @@
     } */
 .black-bg nav ul li a {
   color: #fff !important;
+}
+
+.megamenu {
+  position: static;
+  .dropdown-menu {
+  border: none;
+  width: 100%;
+  /* top: 20px!important;
+  left: -20px!important; */
+  }
 }
 </style>
